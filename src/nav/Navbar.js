@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div className={`header ${isNavOpen ? 'nav-open' : ''}`}>
       <button className="nav-toggle" onClick={toggleNav}>
-        ☰
+        
       </button>
       <Link to={"/"}>
         <h1>Shabna pk.</h1>
