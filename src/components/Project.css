@@ -1,0 +1,64 @@
+/* Style the image */
+img {
+  width: 300px;
+  height: 300px; /* Make the image responsive by using the full container width */
+  margin-top: 1px;
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 1px auto;
+}
+
+/* Style headings */
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 7px auto 0; /* Add spacing from the top and center the heading horizontally */
+  text-align: center;
+}
+
+h4 {
+  font-size: 20px;
+  color: #555;
+  margin: 10px auto; /* Adjust margin for better spacing and center the heading horizontally */
+  text-align: center;
+}
+
+/* Style the link */
+p {
+  font-size: 16px;
+  color: #777;
+  text-align: center; /* Center the text horizontally */
+  margin: 10px auto; /* Center the text vertically and horizontally */
+}
+
+span {
+  color: black;
+  padding: 5px 10px; /* Adjust padding */
+  border: 1px solid black;
+  margin: 2px; /* Add spacing around the span elements */
+}
+
+a {
+  text-decoration: none;
+  color: #ff9100;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  img {
+    margin: 20px auto; /* Center the image horizontally and add spacing all around */
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+}

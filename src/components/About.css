@@ -1,0 +1,45 @@
+.abot {
+  width: 80%; /* Adjust the width as needed */
+  max-width: 800px; /* Set a max-width to control content width */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(112, 24, 24, 0.3);
+  margin-top: 20px;
+  background-color: #15fc90; /* Add a background color */
+}
+
+.abot p {
+  color: #0C1A0B; /* Adjust text color */
+  margin: 20px 0; /* Improved spacing */
+  padding: 10px; /* Add padding to the <p> tag */
+  font-size: 18px; /* Adjust font size */
+}
+
+.abot h1 {
+  color: #fc6868; /* Text color */
+  font-size: 36px;
+  text-transform: uppercase; /* Corrected spelling */
+  margin: 20px 0; /* Improved spacing */
+}
+
+.abot h5 {
+  color: #251313; /* Text color */
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 15px 0; /* Improved spacing */
+  letter-spacing: 2px;
+}
+
+/* Adjust margin for smaller screens */
+@media (max-width: 768px) {
+  .abot {
+    width: 90%;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,44 @@
+/* Footer Styles */html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #15fc90;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+  
+  .container {
+    max-width: 960px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  p {
+    margin: 0;
+    color: #131212
+  }
+  
+  /* Style the link (for example, social media icons in the footer) */
+  a {
+    color: #131212;
+    text-decoration: none;
+    margin: 0 10px; /* Add spacing between links */
+    font-size: 18px;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Add an underline on hover */
+  }
+  
